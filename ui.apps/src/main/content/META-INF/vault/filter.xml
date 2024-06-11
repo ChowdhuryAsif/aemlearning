@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/aemlearning/clientlibs"/>
+    <filter root="/apps/aemlearning/components"/>
+    <filter root="/apps/aemlearning/i18n"/>
+    <filter root="/apps/sling" />
+</workspaceFilter>

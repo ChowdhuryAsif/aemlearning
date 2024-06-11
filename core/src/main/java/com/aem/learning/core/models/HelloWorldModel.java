@@ -40,7 +40,7 @@ import java.util.Optional;
         defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL,
         resourceType = "aemlearning/components/helloworld"
 )
-@Exporter(name = "jackson", extensions = "json")
+@Exporter(name = "jackson", extensions = "json", selector = "aemlearning")
 public class HelloWorldModel {
 
     @ValueMapValue(name=PROPERTY_RESOURCE_TYPE, injectionStrategy=InjectionStrategy.OPTIONAL)
